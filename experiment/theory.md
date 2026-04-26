@@ -54,7 +54,7 @@ To determine X<sub>d</sub>" and X<sub>q</sub>" in laboratory, the above mentione
 
 | Equipment | Image |
 | :--- | :--- |
-| **Fig.1: Motor Generator** | ![Motor Generator](images/exp9/alternator.jpg) |
-| **Fig.2: Voltmeter** | ![Voltmeter](images/exp9/Eqp_ACvoltmeter.jpg) |
-| **Fig.3: Rheostat** | ![Rheostat](images/exp9/Eqp_rehostate.jpg) |
-| **Fig.4: Ammeter** | ![Ammeter](images/exp9/Eqp_AC&DCAmeter.jpg) |
+| **Fig.1: Motor Generator** | ![Motor Generator](images/exp8/alternator.jpg) |
+| **Fig.2: Voltmeter** | ![Voltmeter](images/exp8/Eqp_ACvoltmeter.jpg) |
+| **Fig.3: Rheostat** | ![Rheostat](images/exp8/Eqp_rehostate.jpg) |
+| **Fig.4: Ammeter** | ![Ammeter](images/exp8/Eqp_AC&DCAmeter.jpg) |
