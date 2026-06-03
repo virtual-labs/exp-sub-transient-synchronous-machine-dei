@@ -1,10 +1,10 @@
 {
   "version": 2.0,
-  "quiz_title": "QUIZ - 8",
+ 
   "questions": [
     {
-      "num": 6,
-      "question": "Selection of circuit breaker depends upon:",
+     
+      "question": "6. Selection of circuit breaker depends upon:",
       "answers": {
         "a": "Current under normal operating condition",
         "b": "(Current under normal condition) + (maximum current which flows momentarily)",
@@ -21,8 +21,8 @@
       "difficulty": "intermediate"
     },
     {
-      "num": 7,
-      "question": "The short circuit current has:",
+     
+      "question": "7. The short circuit current has:",
       "answers": {
         "a": "Symmetrical component of current only",
         "b": "D.C. off-set current only",
@@ -39,8 +39,8 @@
       "difficulty": "beginner"
     },
     {
-      "num": 8,
-      "question": "If θ ≅ 90 degree and α = 0, then maximum momentary current (i<sub>mm</sub>) will be:",
+      
+      "question": "8. If θ ≅ 90 degree and α = 0, then maximum momentary current (i<sub>mm</sub>) will be:",
       "answers": {
         "a": "Half the maximum of symmetrical short circuit current",
         "b": "Equal to the maximum of symmetrical short circuit current",
@@ -57,8 +57,8 @@
       "difficulty": "advanced"
     },
     {
-      "num": 9,
-      "question": "The value of symmetrical short circuit current:",
+     
+      "question": "9. The value of symmetrical short circuit current:",
       "answers": {
         "a": "√2 V / |Z|",
         "b": "1/2 (√2 V / |Z|)",
@@ -75,8 +75,8 @@
       "difficulty": "intermediate"
     },
     {
-      "num": 10,
-      "question": "The effective value of transient reactance when there is no damping current:",
+     
+      "question": "10. The effective value of transient reactance when there is no damping current:",
       "answers": {
         "a": "X<sub>d</sub>' = X<sub>L</sub> + X<sub>a</sub>",
         "b": "X<sub>d</sub>' = X<sub>L</sub> + X<sub>f</sub>",
