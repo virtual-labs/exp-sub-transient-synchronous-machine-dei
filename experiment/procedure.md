@@ -6,7 +6,7 @@
 4. Slowly rotate the armature and see the field current and armature current readings. Note the values of applied voltage and armature current when field current is maximum and also when it is zero.
 5. Repeat step (4) for other applied voltages. Take care that armature current does not exceed its rated value while performing this experiment.
 
-# Observations of Experiment - 8
+## Observations 
 
 | S.No. | Armature Voltage (V) | Armature Current | Direct axis subtransient reactance X<sub>d</sub>" | Qud. Axis subtransient reactance X<sub>q</sub>" | Average Value |
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -16,7 +16,7 @@
 | **3** | | | | | | | |
 | **4** | | | | | | | |
 
-# Connection Diagrams of Experiment - 8
+# Connection Diagrams 
 
 <center>
 
