@@ -3,8 +3,8 @@
   "quiz_title": "QUIZ - 8",
   "questions": [
     {
-      "num": 1,
-      "question": "The value of X<sub>d</sub>'' for 2 pole Turbo alternator in the range of:",
+     
+      "question": "1. The value of X<sub>d</sub>'' for 2 pole Turbo alternator in the range of:",
       "answers": {
         "a": "0.07 to 0.12",
         "b": "0.1 to 0.5",
@@ -21,8 +21,8 @@
       "difficulty": "advanced"
     },
     {
-      "num": 2,
-      "question": "The value of X<sub>d</sub>'' for water wheel alternators in the range of:",
+     
+      "question": "2. The value of X<sub>d</sub>'' for water wheel alternators in the range of:",
       "answers": {
         "a": "0.1 to 0.35",
         "b": "1 to 3.5",
@@ -39,8 +39,8 @@
       "difficulty": "advanced"
     },
     {
-      "num": 3,
-      "question": "Which statement is correct just after fault:",
+     
+      "question": "3. Which statement is correct just after fault:",
       "answers": {
         "a": "X<sub>d</sub>'' = X<sub>d</sub>' = X<sub>d</sub>",
         "b": "X<sub>d</sub>'' < X<sub>d</sub>' < X<sub>d</sub>",
@@ -57,8 +57,8 @@
       "difficulty": "intermediate"
     },
     {
-      "num": 4,
-      "question": "The reactances of a synchronous machine depend upon:",
+      
+      "question": "4. The reactances of a synchronous machine depend upon:",
       "answers": {
         "a": "Applied Voltage",
         "b": "Leakage flux",
@@ -75,8 +75,8 @@
       "difficulty": "intermediate"
     },
     {
-      "num": 5,
-      "question": "Line to line fault in a transmission line is a:",
+    
+      "question": "5. Line to line fault in a transmission line is a:",
       "answers": {
         "a": "Symmetrical fault",
         "b": "Unsymmetrical fault",
