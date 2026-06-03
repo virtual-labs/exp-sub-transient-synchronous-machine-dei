@@ -30,7 +30,7 @@
 
 <br/><br/><br/>
 <div style="text-align: center;">
-    <b style="font-size:18px">Experiment 8. To determine the sub-transient (x<sub>d</sub>&Prime;), transient (x<sub>d</sub>&prime;) and steady state reactance (x<sub>d</sub>) of a synchronous machine.<br/>Video-1</b><br/><br/>
+    <b style="font-size:18px">Experiment 8. To determine the sub-transient (x<sub>d</sub>&Prime;), transient (x<sub>d</sub>&prime;) and steady state reactance (x<sub>d</sub>) of a synchronous machine.<br/>Video-2</b><br/><br/>
     <video width="480" height="360" controls>
         <source src=" videos/Exp8.mp4" type="video/mp4">
     </video>
