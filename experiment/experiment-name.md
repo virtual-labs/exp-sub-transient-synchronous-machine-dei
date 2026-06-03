@@ -1,1 +1,1 @@
-## To determine the sub-transient (xd″), transient (xd′) and steady state reactance (xd) of a synchronous machine.
+##  Determination of Sub-Transient Reactance (Xd″), Transient Reactance (Xd′), and Steady-State Reactance (Xd) of a Synchronous Machine
