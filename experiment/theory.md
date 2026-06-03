@@ -1,4 +1,4 @@
-# Experiment 8: Theory and Procedure
+
 
 ## Theory
 
@@ -50,11 +50,14 @@ As before, the flux linkage with q-axis damper bars must remain constant i.e. ze
 
 To determine X<sub>d</sub>" and X<sub>q</sub>" in laboratory, the above mentioned conditions are created there. Two phases of the three phase alternator are connected in series and the combination is connected to a low voltage single phase supply. Field winding is short circuited. The rotor is rotated and brought along the d-axis once. X<sub>d</sub>" can be calculated from the armature current and voltage per phase of armature in this position. Next, rotor is brought along the q-axis position and X<sub>q</sub>" is determined.
 
-# Equipments Required in Experiment - 8
-
+## Equipments Required 
+<center>
+  
 | Equipment | Image |
 | :--- | :--- |
 | **Fig.1: Motor Generator** | ![Motor Generator](images/exp8/alternator.jpg) |
 | **Fig.2: Voltmeter** | ![Voltmeter](images/exp8/Eqp_ACvoltmeter.jpg) |
 | **Fig.3: Rheostat** | ![Rheostat](images/exp8/Eqp_rehostate.jpg) |
 | **Fig.4: Ammeter** | ![Ammeter](images/exp8/Eqp_AC&DCAmeter.jpg) |
+
+</center>
