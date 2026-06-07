@@ -1,9 +1,7 @@
 {
   "version": 2.0,
-
   "questions": [
     {
-     
       "question": "1. The value of X<sub>d</sub>'' for 2 pole Turbo alternator in the range of:",
       "answers": {
         "a": "0.07 to 0.12",
@@ -17,11 +15,9 @@
         "c": "Incorrect. That is for synchronous reactance.",
         "d": "Incorrect. That range is for salient pole machines."
       },
-      "correctAnswer": "a",
-      "difficulty": "advanced"
+      "correctAnswer": "a"
     },
     {
-     
       "question": "2. The value of X<sub>d</sub>'' for water wheel alternators in the range of:",
       "answers": {
         "a": "0.1 to 0.35",
@@ -35,11 +31,9 @@
         "c": "Incorrect. That is for turbo alternators.",
         "d": "Incorrect."
       },
-      "correctAnswer": "a",
-      "difficulty": "advanced"
+      "correctAnswer": "a"
     },
     {
-     
       "question": "3. Which statement is correct just after fault:",
       "answers": {
         "a": "X<sub>d</sub>'' = X<sub>d</sub>' = X<sub>d</sub>",
@@ -53,11 +47,9 @@
         "c": "Incorrect. This is opposite order.",
         "d": "Incorrect."
       },
-      "correctAnswer": "b",
-      "difficulty": "intermediate"
+      "correctAnswer": "b"
     },
     {
-      
       "question": "4. The reactances of a synchronous machine depend upon:",
       "answers": {
         "a": "Applied Voltage",
@@ -71,11 +63,9 @@
         "c": "Correct. Reactances are affected by saturation of the magnetic core, which changes with operating conditions.",
         "d": "Incorrect. Power factor does not determine reactance values."
       },
-      "correctAnswer": "c",
-      "difficulty": "intermediate"
+      "correctAnswer": "c"
     },
     {
-    
       "question": "5. Line to line fault in a transmission line is a:",
       "answers": {
         "a": "Symmetrical fault",
@@ -89,8 +79,7 @@
         "c": "Incorrect.",
         "d": "Incorrect."
       },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+      "correctAnswer": "b"
     }
   ]
 }
