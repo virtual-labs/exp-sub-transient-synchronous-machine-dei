@@ -1,0 +1,85 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Selection of circuit breaker depends upon:",
+      "answers": {
+        "a": "Current under normal operating condition",
+        "b": "(Current under normal condition) + (maximum current which flows momentarily)",
+        "c": "(Current under normal condition) + (maximum current which flows momentarily) + (interrupting current at given kV)",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "Incomplete. Normal current alone is insufficient.",
+        "b": "Incomplete.",
+        "c": "Correct. Circuit breaker selection considers normal current, momentary (making) current, and interrupting (breaking) capacity at rated voltage.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "2. The short circuit current has:",
+      "answers": {
+        "a": "Symmetrical component of current only",
+        "b": "D.C. off-set current only",
+        "c": "Both 1 and 2",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Incorrect. Short circuit current has both AC and DC components.",
+        "b": "Incorrect. It has both.",
+        "c": "Correct. Short circuit current consists of symmetrical AC component and a DC offset (transient) component.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "3. If θ ≅ 90 degree and α = 0, then maximum momentary current (i<sub>mm</sub>) will be:",
+      "answers": {
+        "a": "Half the maximum of symmetrical short circuit current",
+        "b": "Equal to the maximum of symmetrical short circuit current",
+        "c": "Four times to the maximum of symmetrical short circuit current",
+        "d": "Twice the maximum of symmetrical short circuit current"
+      },
+      "explanations": {
+        "a": "Incorrect.",
+        "b": "Incorrect.",
+        "c": "Incorrect.",
+        "d": "Correct. When θ ≈ 90° (purely inductive circuit) and α = 0 (fault at voltage zero crossing), the DC offset is maximum and peak momentary current is approximately 2 × √2 × I symmetrical peak = 2 × maximum symmetrical current."
+      },
+      "correctAnswer": "d"
+    },
+    {
+      "question": "4. The value of symmetrical short circuit current:",
+      "answers": {
+        "a": "√2 V / |Z|",
+        "b": "1/2 (√2 V / |Z|)",
+        "c": "1/4 (√2 V / |Z|)",
+        "d": "(1/√2) * (√2 V / |Z|)"
+      },
+      "explanations": {
+        "a": "Correct. Symmetrical short circuit current (rms) = V / |Z|, and √2 V/|Z| is the peak value.",
+        "b": "Incorrect.",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "5. The effective value of transient reactance when there is no damping current:",
+      "answers": {
+        "a": "X<sub>d</sub>' = X<sub>L</sub> + X<sub>a</sub>",
+        "b": "X<sub>d</sub>' = X<sub>L</sub> + X<sub>f</sub>",
+        "c": "X<sub>d</sub>' = X<sub>L</sub>",
+        "d": "X<sub>d</sub>' = X<sub>L</sub> + (X<sub>a</sub> || X<sub>f</sub>)"
+      },
+      "explanations": {
+        "a": "Incorrect.",
+        "b": "Incorrect.",
+        "c": "Incorrect.",
+        "d": "Correct. Transient reactance Xd' = XL (armature leakage) + (Xa || Xf) where Xa is armature reaction reactance and Xf is field winding reactance."
+      },
+      "correctAnswer": "d"
+    }
+  ]
+}

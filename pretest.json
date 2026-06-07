@@ -1,0 +1,85 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The value of X<sub>d</sub>'' for 2 pole Turbo alternator in the range of:",
+      "answers": {
+        "a": "0.07 to 0.12",
+        "b": "0.1 to 0.5",
+        "c": "1 to 5",
+        "d": "0.7 to 1.8"
+      },
+      "explanations": {
+        "a": "Correct. Subtransient reactance (Xd'') for 2-pole turbo alternators is typically 0.07 to 0.12 pu.",
+        "b": "Incorrect. That range is too high.",
+        "c": "Incorrect. That is for synchronous reactance.",
+        "d": "Incorrect. That range is for salient pole machines."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "2. The value of X<sub>d</sub>'' for water wheel alternators in the range of:",
+      "answers": {
+        "a": "0.1 to 0.35",
+        "b": "1 to 3.5",
+        "c": "0.07 to 0.12",
+        "d": "0.7 to 1.2"
+      },
+      "explanations": {
+        "a": "Correct. For water wheel (salient pole) alternators, subtransient reactance is typically 0.1 to 0.35 pu.",
+        "b": "Incorrect. That is synchronous reactance range.",
+        "c": "Incorrect. That is for turbo alternators.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "3. Which statement is correct just after fault:",
+      "answers": {
+        "a": "X<sub>d</sub>'' = X<sub>d</sub>' = X<sub>d</sub>",
+        "b": "X<sub>d</sub>'' < X<sub>d</sub>' < X<sub>d</sub>",
+        "c": "X<sub>d</sub>'' > X<sub>d</sub>' > X<sub>d</sub>",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Incorrect. All three are not equal.",
+        "b": "Correct. Subtransient reactance is smallest, transient reactance is larger, synchronous reactance is largest. Xd'' < Xd' < Xd.",
+        "c": "Incorrect. This is opposite order.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "4. The reactances of a synchronous machine depend upon:",
+      "answers": {
+        "a": "Applied Voltage",
+        "b": "Leakage flux",
+        "c": "Degree of saturation of magnetic core",
+        "d": "Power factor of supply current"
+      },
+      "explanations": {
+        "a": "Incorrect. Applied voltage is not a direct factor.",
+        "b": "Incorrect. Leakage flux is a component but not the complete answer.",
+        "c": "Correct. Reactances are affected by saturation of the magnetic core, which changes with operating conditions.",
+        "d": "Incorrect. Power factor does not determine reactance values."
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "5. Line to line fault in a transmission line is a:",
+      "answers": {
+        "a": "Symmetrical fault",
+        "b": "Unsymmetrical fault",
+        "c": "Somewhat symmetrical",
+        "d": "Somewhat unsymmetrical"
+      },
+      "explanations": {
+        "a": "Incorrect. Only 3-phase fault is symmetrical.",
+        "b": "Correct. Line-to-line fault (L-L) is an unsymmetrical fault because the three phases are not equally affected.",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "b"
+    }
+  ]
+}

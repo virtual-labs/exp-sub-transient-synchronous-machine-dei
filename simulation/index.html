@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Phase Short Circuit Simulation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h2 style="color:red; text-decoration: underline; margin-bottom: 5px;">Procedure</h2>
+        <h3 style="color:red; margin: 5px 0;">1. Click on Three Phase Open Circuit to close it and observe three phase waveform</h3>
+        <h3 style="color:red; margin: 5px 0;">2. Click on Three Phase Short Circuit to open it</h3>
+        <h3 style="color:red; margin: 5px 0;">3. Change time of SC by changing the Pointer.</h3>
+        <h3 style="color:red; margin: 5px 0;">4. Repeat the process.</h3>
+    </div>
+
+    <div class="apparatus-container">
+        <div class="apparatus-item">
+            <img src="motor.jpg" alt="Motor Generator" class="apparatus-img motor-img">
+        </div>
+        <div class="apparatus-item switch-container" id="main-switch">
+            <div class="switch-box" id="switch-box">
+                <div class="switch-text" id="switch-text">Three<br>Phase<br>Open<br>Circuited</div>
+                <div class="switch-graphic" id="switch-graphic">
+                    <div class="pole"><div class="gap"></div></div>
+                    <div class="pole"><div class="gap"></div></div>
+                    <div class="pole"><div class="gap"></div></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+        <div class="apparatus-item">
+            <img src="oscilloscope.jpg" alt="Oscilloscope" class="apparatus-img osc-img">
+        </div>
+    </div>
+
+    <div class="slider-container">
+        <div class="slider-labels">
+            <span>0</span>
+            <span>0.5</span>
+            <span>1</span>
+            <span>1.5</span>
+            <span>2</span>
+        </div>
+        <input type="range" min="0" max="2" step="0.01" value="0.5" class="slider" id="time-slider">
+    </div>
+
+    <div class="graphs-container">
+        <div class="graph-row top-row">
+            <div class="graph-wrapper">
+                <div class="y-label">Ia &rarr;</div>
+                <div class="canvas-container">
+                    <canvas id="chartIa"></canvas>
+                    <div class="x-label">Time(Sec) &rarr;</div>
+                </div>
+            </div>
+            <div class="graph-wrapper">
+                <div class="y-label">Ib &rarr;</div>
+                <div class="canvas-container">
+                    <canvas id="chartIb"></canvas>
+                    <div class="x-label">Time(Sec) &rarr;</div>
+                </div>
+            </div>
+        </div>
+        <div class="graph-row bottom-row">
+            <div class="graph-wrapper">
+                <div class="y-label">Ic &rarr;</div>
+                <div class="canvas-container">
+                    <canvas id="chartIc"></canvas>
+                    <div class="x-label">Time(Sec) &rarr;</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+</html>
